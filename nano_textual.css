@@ -1,0 +1,22 @@
+Header {
+    background: rgb(1, 1, 135);
+    color: white;
+
+}
+
+TextArea {
+    background: black;
+}
+
+Footer {
+    background: black;
+    
+}
+
+#in_nome_arquivo {
+    background: rgb(38, 38, 38);
+    color: rgb(121, 120, 120);
+    outline: none;
+    height: auto;
+    
+}
