@@ -35,7 +35,7 @@ class TelaPadrao(Screen):
         nome_arquivo = self.validar_nome_arquivo()
 
         try:
-            with open(f'{nome_arquivo}', 'r+') as arquivo:
+            with open(f'{nome_arquivo}', 'r+', encoding='utf-8') as arquivo:
                 conteudo_arquivo = str(arquivo.read())
                 self.query_one('#text_area', TextArea).text = conteudo_arquivo
 
@@ -46,7 +46,7 @@ class TelaPadrao(Screen):
         nome_arquivo = self.validar_nome_arquivo()
         texto_escrito = self.query_one("#text_area", TextArea).text
 
-        with open(f'{nome_arquivo}', 'w') as arquivo:
+        with open(f'{nome_arquivo}', 'w', encoding='utf-8') as arquivo:
             arquivo.write(texto_escrito)
 
     def action_limpar_arquivo(self):
