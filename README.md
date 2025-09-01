@@ -13,5 +13,3 @@ Comandos:
 - Ctrl+l: limpa o conteúdo da área de texto
 
 ![Getting Started](./nano_textual_img2.svg)
-
-O projeto segue em desenvolvimento.
